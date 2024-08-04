@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* cabeçario */
+header{
+    display: flex;
+
+}
+header > nav{
+    display: flex;
+    width: 100%;
+}
+header > nav > ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#logotipo{
+    height: 10vh;
+}
+#olimpc{
+    height: 10vh;
+    margin-right: 4vh;
+}
+
+/* parte historia */
+
+#historiaImg{
+    display: flex;
+    margin-top: 1vh;
+    justify-content: space-around;
+    
+}
+#historiaImg > div{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#historiaImg > div> img
+{
+    height: 80vh;
+    width: 55vh;
+}
+#historiaImg > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#historiaImg > div > div > img{
+    height: 39vh;
+    width: 60vh;
+}
+#historiaText{
+    display: flex;
+    margin-top: 10vh;
+    width: 80vw;
+    padding: 2vh;
+    gap: 2vh;
+    align-items: center;
+    flex-direction: column;
+}
+#carouselExampleIndicators img{
+    height: 30vh;
+    width: 30vh;
+}
+
+
+
+footer{
+    display:  flex;
+    flex-direction:  column;
+    background-color: white;
+    padding: 50px 0px;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    margin-bottom: 25px;
+}
+footer ul li{margin-right: 10px;
+}
+footer ul :local-link:last-child{
+    margin-right: 0px;
+}
+footer ul li a{
+    color: black;
+    font-size: 2rem;
+}
+footer p{
+    color: green;
+    text-align: center;
+}
