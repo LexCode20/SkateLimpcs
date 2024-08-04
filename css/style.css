@@ -63,9 +63,16 @@ header > nav > ul {
     align-items: center;
     flex-direction: column;
 }
+
+
+
 #carouselExampleIndicators img{
     height: 30vh;
     width: 30vh;
+}
+
+#carrosel1 > div{
+    display: flex;
 }
 
 
