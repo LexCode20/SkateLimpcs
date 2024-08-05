@@ -5,6 +5,7 @@
 /* cabeçario */
 header{
     display: flex;
+    width: 100%;
 
 }
 header > nav{
@@ -27,9 +28,16 @@ header > nav > ul {
 
 /* parte historia */
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #historiaImg{
     display: flex;
     margin-top: 1vh;
+    width: 100%;
     justify-content: space-around;
     
 }
@@ -64,6 +72,7 @@ header > nav > ul {
     flex-direction: column;
 }
 
+    /* Ajuste carrossel */
 
 
 #carouselExampleIndicators img{
@@ -71,11 +80,115 @@ header > nav > ul {
     width: 30vh;
 }
 
-#carrosel1 > div{
+#carrosel1,#carrosel2,#carrosel3{
+    width: 100%;
+    
+}
+
+#carrosel1 >  div{
+    display: flex   ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+}
+#carrosel2 >  div{
+    display: flex   ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+}
+
+#carrosel3 >  div{
+    display: flex   ;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10vh;
+    align-items: center;
+}
+
+#carrosel3 > div >div{
+    display: flex;
+    
+}
+
+#carrosel1 > div >div{
     display: flex;
 }
 
+#carrosel2 > div >div{
+    display: flex;
+}
 
+.Ajuda{
+    background-color: aqua;
+    width: 100%;
+}
+
+    /* Principais Campeonatos */
+
+.CampeonatoDiv{
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.ImagemCampeonato{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ImagemCampeonato > div{
+    padding: 1vh;
+}
+
+.ImagemCampeonato > div > img{
+    height: 40vh;
+    padding: 0 1vh ;
+    width: 40vw;
+}
+
+.CampeonatoText{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.CampeonatoText > div{
+    width: 50%;
+    padding: 4vh;
+}
+
+    /* Regulamentação */
+
+.RegulamentacaoDiv{
+    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.RegulamentacaoDiv > div{
+    width: 100%;
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.RegulamentacaoDiv > div> p{
+    width: 130vh;
+}
+.RegulamentacaoDiv > div > img{
+    height: 80vh;
+    width: 60vh;
+    padding: 0 2vh 0 10vh;
+}
 
 footer{
     display:  flex;
