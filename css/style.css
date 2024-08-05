@@ -75,10 +75,7 @@ main{
     /* Ajuste carrossel */
 
 
-#carouselExampleIndicators img{
-    height: 30vh;
-    width: 30vh;
-}
+
 
 #carrosel1,#carrosel2,#carrosel3{
     width: 100%;
@@ -88,14 +85,21 @@ main{
 #carrosel1 >  div{
     display: flex   ;
     justify-content: center;
+    flex-direction: row;
+    width: 100%;
     flex-direction: column;
-    align-items: center;
     padding: 10vh;
+    align-items: center;
+
+}
+#carrosel1>  div > div >img{
+    height: 1vh;
+    width: 1vh;
 }
 #carrosel2 >  div{
     display: flex   ;
     justify-content: center;
-    flex-direction: column;
+
     align-items: center;
     padding: 10vh;
 }
@@ -103,7 +107,7 @@ main{
 #carrosel3 >  div{
     display: flex   ;
     justify-content: center;
-    flex-direction: column;
+
     padding: 10vh;
     align-items: center;
 }
@@ -113,12 +117,14 @@ main{
     
 }
 
-#carrosel1 > div >div{
-    display: flex;
-}
+
+
+
+
 
 #carrosel2 > div >div{
     display: flex;
+
 }
 
 .Ajuda{
@@ -182,7 +188,8 @@ main{
 }
 
 .RegulamentacaoDiv > div> p{
-    width: 130vh;
+    width: 70vh;
+    font-size: 2.5vh;
 }
 .RegulamentacaoDiv > div > img{
     height: 80vh;
